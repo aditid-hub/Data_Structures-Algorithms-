@@ -1,2 +1,6 @@
 # Data_Structures-Algorithms-
-My collection of DSA problems solved in Python. I’m using this repo to practice and improve my problem-solving skills, with examples organized by topic.
+A collection of my Data Structures and Algorithms practice problems in Python.  
+Organized by topic, with example inputs and solutions.  
+
+Topics include Arrays, Strings, Linked Lists, Sorting, Searching, and more.  
+Will keep updating as I learn and solve more problems.🌸
