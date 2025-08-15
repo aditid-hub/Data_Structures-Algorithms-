@@ -24,3 +24,22 @@ class Solution(object):
               commonstring = commonstring[:-1]
            
         return commonstring
+
+"""
+Longest Common Prefix – Dry Run Example
+
+Input: ["flower", "flow", "flight"]
+
+Step | Current prefix | Current s | s.startswith(prefix)? | Action | Result
+---- | -------------- | --------- | -------------------- | ------ | ------
+Init | "flower"       | —         | —                     | Set prefix to first string | "flower"
+1    | "flower"       | "flow"    | False                 | Trim last char            | "flowe"
+2    | "flowe"        | "flow"    | False                 | Trim last char            | "flow"
+3    | "flow"         | "flow"    | True                  | Stop trimming             | "flow"
+4    | "flow"         | "flight"  | False                 | Trim last char            | "flo"
+5    | "flo"          | "flight"  | False                 | Trim last char            | "fl"
+6    | "fl"           | "flight"  | True                  | Stop trimming             | "fl"
+End  | "fl"           | —         | —                     | Return prefix             | "fl"
+
+Final Answer: "fl"
+"""
