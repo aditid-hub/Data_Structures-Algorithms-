@@ -12,3 +12,15 @@ Output: ""
 Explanation: There is no common prefix among the input strings.
 """
 
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        if len(strs) == 0:  # more explicit
+          return ""
+
+        commonstring = strs[0]
+
+        for s in strs[1:]:
+            while not s.startswith(commonstring):
+              commonstring = commonstring[:-1]
+           
+        return commonstring
