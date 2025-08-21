@@ -18,7 +18,12 @@ class Solution(object):
                     max_profit = profit
             
         return max_profit
-
+Dry run:
+Buy day 0, sell day 1: profit = -6 (not > 0, so max_profit stays 0)
+Buy day 0, sell day 2: profit = -2 (not > 0, so max_profit stays 0)
+Buy day 1, sell day 2: profit = 4 (4 > 0, so max_profit = 4)
+Buy day 1, sell day 4: profit = 5 (5 > 4, so max_profit = 5) ✅
+Continue checking...
 
 
 
