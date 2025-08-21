@@ -25,6 +25,10 @@ class Solution(object):
            
         return commonstring
 
+Check if the current string starts with our commonstrings
+If it DOESN'T start with it, make commonstrings shorter by removing the last character
+Keep doing this until the string DOES start with commonstrings
+
 """
 Longest Common Prefix – Dry Run Example
 
